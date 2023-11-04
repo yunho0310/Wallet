@@ -9,7 +9,7 @@ android {
     compileSdk = 33
 
     buildFeatures {
-        viewBinding
+
     }
 
     defaultConfig {

@@ -20,7 +20,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="5"
             android:text="지출 : " />
 
@@ -42,8 +42,15 @@
         <TextView
             android:id="@+id/memoTextView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
             android:padding="16dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+" />
 
     </LinearLayout>
 
